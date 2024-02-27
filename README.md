@@ -138,11 +138,10 @@ Get more power with AdminKit PRO, a premium variant of AdminKit, featuring hundr
 | 1 Plugin                     | ✔ 10+ Plugins                                |
 | 1 Color Scheme               | ✔ 3 Color Schemes                            |
 | ✔ All Bootstrap 5 Components | ✔ All Bootstrap 5 Components                 |
-|                              | ✔ Dark Mode 🌙                               |
+| ✔ Toast Notifications        | ✔ Dark Mode 🌙                               |
 |                              | ✔ Compact Sidebar                            |
 |                              | ✔ Calendar                                   |
 |                              | ✔ Advanced Forms                             |
 |                              | ✔ Drag and Drop                              |
-|                              | ✔ Toast Notifications                        |
 |                              | ✔ WYSIWYG Editors                            |
 |                              | ✔ Premium Support                            |
