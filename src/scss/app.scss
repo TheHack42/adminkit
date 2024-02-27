@@ -1,7 +1,7 @@
 /*!
- * AdminKit v3.4.0 (https://adminkit.io/)
- * Copyright 2023 Paul Laros
- * Copyright 2023 AdminKit
+ * AdminKit v3.0.2 (https://adminkit.io/)
+ * Copyright 2021 Paul Laros
+ * Copyright 2021 AdminKit
  * Licensed under MIT (https://github.com/adminkit/adminkit/blob/master/LICENSE)
  */
 
@@ -9,31 +9,7 @@
 @import "1-variables/app";
 
 // Bootstrap
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/maps";
-@import "~bootstrap/scss/mixins";
-@import "~bootstrap/scss/utilities";
-@import "~bootstrap/scss/root";
-@import "~bootstrap/scss/reboot";
-@import "~bootstrap/scss/type";
-@import "~bootstrap/scss/images";
-@import "~bootstrap/scss/containers";
-@import "~bootstrap/scss/grid";
-@import "~bootstrap/scss/tables";
-@import "~bootstrap/scss/forms";
-@import "~bootstrap/scss/buttons";
-@import "~bootstrap/scss/transitions";
-@import "~bootstrap/scss/dropdown";
-@import "~bootstrap/scss/button-group";
-@import "~bootstrap/scss/nav";
-@import "~bootstrap/scss/navbar";
-@import "~bootstrap/scss/card";
-@import "~bootstrap/scss/badge";
-@import "~bootstrap/scss/list-group";
-@import "~bootstrap/scss/close";
-@import "~bootstrap/scss/helpers";
-@import "~bootstrap/scss/utilities/api";
+@import "~bootstrap/scss/bootstrap.scss";
 
 // Theme mixins
 @import "2-mixins/button";
@@ -58,6 +34,7 @@
 @import "3-components/tables";
 @import "3-components/type";
 @import "3-components/wrapper";
+@import "3-components/notify";
 
 // Theme utilities
 @import "4-utilities/cursors";

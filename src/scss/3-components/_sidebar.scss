@@ -4,6 +4,10 @@
   transition: $sidebar-transition;
   direction: ltr;
   background: $sidebar-bg;
+
+  .fa-solid {
+    font-size: 20px;
+  }
 }
 
 .sidebar-content {
@@ -144,4 +148,35 @@ a.sidebar-link {
 
   background: $sidebar-cta-bg;
   color: $sidebar-cta-color;
+}
+
+.sidebar-dropdown {
+  .sidebar-link:before {
+    content: "→";
+    display: inline-block;
+    left: -14px;
+    position: relative;
+    transform: translateX(0);
+    transition: all .1s ease;
+  }
+
+  .sidebar-item .sidebar-link:hover:hover:before {
+    transform: translateX(4px);
+  }
+
+  .sidebar-item.active .sidebar-link {
+    background: transparent;
+    border-left: 0;
+    color: #518be1;
+    font-weight: 400;
+  }
+
+  .sidebar-link {
+    background: transparent;
+    border-left: 0;
+    color: #adb5bd;
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.625rem 1.5rem 0.625rem 3.25rem;
+  }
 }

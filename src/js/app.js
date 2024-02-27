@@ -14,3 +14,6 @@ import "./modules/flatpickr";
 
 // Maps
 import "./modules/vector-maps";
+
+// Notify
+import "./modules/notify";
