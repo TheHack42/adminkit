@@ -10,7 +10,7 @@ window.notify = {
         let container = document.querySelector('.notify-container');
         if (!container) {
             container = document.createElement('div');
-            container.setAttribute('class', 'notify-container position-absolute');
+            container.setAttribute('class', 'notify-container position-fixed');
             document.querySelector('body').appendChild(container);
         }
 
