@@ -11,6 +11,7 @@ window.notify = {
         if (!container) {
             container = document.createElement('div');
             container.setAttribute('class', 'notify-container position-fixed');
+            container.style.zIndex = '3000';
             document.querySelector('body').appendChild(container);
         }
 
